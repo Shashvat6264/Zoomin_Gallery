@@ -1,0 +1,19 @@
+.gallery{
+    height: 400vh;
+}
+
+.gal-imgs{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+
+.gal-img{
+    transform: translate(-50%,-50%) scale(0.2);
+    opacity: 0.0;
+    left:50%;
+    top:50%;
+    position: absolute;
+}
